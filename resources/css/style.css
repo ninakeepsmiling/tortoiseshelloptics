@@ -120,3 +120,65 @@ footer img {
   height: 1.5rem;
   padding-right: 1rem;
 }
+
+
+/* Media Query for Tablets*/
+@media only screen and (min-width: 700px) {
+  .mobilemenu {
+    display: none;
+  }
+}
+@media only screen and (max-width: 900px) {
+  nav {
+    position: static;
+  }
+  .container {
+    width: 100%;
+  }
+  header {
+    height: 22rem;
+  }
+  .main-banner {
+    padding: 0.75rem 4rem;
+    display: inline-block;
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+  .main-banner h1 {
+    font-size: 1.3rem;
+  }
+}
+/*Mobule media query */
+@media only screen and (max-width: 700px) {
+  nav {
+    position: static;
+  }
+  .container {
+    width: 100%;
+  }
+  .mobilemenu {
+    display: block;
+    float: right;
+  }
+  .comp {
+    display: none;
+  }
+  .main-banner h1 {
+    font-size: 1rem;
+  }
+ .capabilities {
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   padding-top: 3.77rem 0 3.77rem 0;
+   font-size: 0.77rem;
+ }
+ .cap {
+   margin: 0 auto;
+   padding: 0;
+ }
+ .business-info {
+   padding-top: 0;
+ }
+}
